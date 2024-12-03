@@ -57,12 +57,12 @@ function App() {
           >
             - Weather-App
           </a>
-          <p className="text">* CSS, Vite, React, TypeScript.</p>
+          <p className="text">* CSS, React, TypeScript.</p>
           <br />
           <p className="link project disabled">- CASSIA (under construction)</p>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">CSS, Vite, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
+            <p className="text">CSS, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
           </div>
         </div>
       </main>
