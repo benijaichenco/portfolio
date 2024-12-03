@@ -30,6 +30,37 @@ function App() {
           <a href="https://github.com/benijaichenco" target="_blank" className="link">
             - GitHub
           </a>
+          <br />
+          <br />
+          <div className="title-container">
+            <h1 className="title" style={{ fontSize: "1.5rem" }}>
+              Projects:
+            </h1>
+            <h1 className="title-mask" style={{ fontSize: "1.5rem" }}>
+              Projects:
+            </h1>
+          </div>
+          <br />
+          <a
+            href="https://benijaichenco.github.io/user-management-system/"
+            target="_blank"
+            className="link project"
+          >
+            - User-Management-System
+          </a>
+          <p className="text">* HTML, SCSS, Javascript.</p>
+          <br />
+          <a
+            href="https://react-weather-app-one-ebon.vercel.app/"
+            target="_blank"
+            className="link project"
+          >
+            - Weather-App
+          </a>
+          <p className="text">* CSS, Vite, React, TypeScript.</p>
+          <br />
+          <p className="link project disabled">- CASSIA (under construction)</p>
+          <p className="text">* CSS, Vite, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
         </div>
       </main>
     </>

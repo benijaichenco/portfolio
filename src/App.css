@@ -1,14 +1,14 @@
 #root {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
+  padding: 100px 0;
 }
 
 #main {
   height: 100%;
-  width: 100%;
+  width: 600px;
   background-color: #111;
   display: flex;
   justify-content: center;
@@ -68,6 +68,27 @@
   transition: 0.3s ease-out;
 }
 
+.link.project {
+  color: #a4f8bd;
+}
+
 .link:hover {
   word-spacing: 10px;
+}
+
+.seperator {
+  width: 100%;
+  border-bottom: solid 1px #d8d8d8;
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #main {
+    width: 280px;
+  }
 }
