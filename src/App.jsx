@@ -60,7 +60,10 @@ function App() {
           <p className="text">* CSS, Vite, React, TypeScript.</p>
           <br />
           <p className="link project disabled">- CASSIA (under construction)</p>
-          <p className="text">* CSS, Vite, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
+          <div className="project-wrapper">
+            <p className="text">*</p>
+            <p className="text">CSS, Vite, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
+          </div>
         </div>
       </main>
     </>

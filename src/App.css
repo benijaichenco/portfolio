@@ -76,9 +76,9 @@
   word-spacing: 10px;
 }
 
-.seperator {
-  width: 100%;
-  border-bottom: solid 1px #d8d8d8;
+.project-wrapper {
+  display: flex;
+  gap: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
