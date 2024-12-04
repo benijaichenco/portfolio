@@ -1,3 +1,4 @@
+import pfp from "./assets/images/pfp.png";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,15 @@ function App() {
           </p>
           <br />
           <br />
+          <div className="title-container">
+            <h1 className="title" style={{ fontSize: "1.5rem" }}>
+              Links:
+            </h1>
+            <h1 className="title-mask" style={{ fontSize: "1.5rem" }}>
+              Links:
+            </h1>
+          </div>
+          <br />
           <a href="https://www.linkedin.com/in/beni-jaichenco/" target="_blank" className="link">
             - LinkedIn
           </a>
@@ -41,29 +51,58 @@ function App() {
             </h1>
           </div>
           <br />
-          <a
-            href="https://benijaichenco.github.io/user-management-system/"
-            target="_blank"
-            className="link project"
-          >
-            - User-Management-System
-          </a>
+          <div className="link-wrapper">
+            <div className="list-dash">-</div>
+            <a
+              href="https://benijaichenco.github.io/user-management-system/"
+              target="_blank"
+              className="link project"
+            >
+              User Management System
+            </a>
+          </div>
           <p className="text">* HTML, SCSS, Javascript.</p>
           <br />
-          <a
-            href="https://react-weather-app-one-ebon.vercel.app/"
-            target="_blank"
-            className="link project"
-          >
-            - Weather-App
-          </a>
+          <div className="link-wrapper">
+            <div className="list-dash">-</div>
+            <a
+              href="https://react-weather-app-one-ebon.vercel.app/"
+              target="_blank"
+              className="link project"
+            >
+              Weather App
+            </a>
+          </div>
           <p className="text">* CSS, React, TypeScript.</p>
           <br />
-          <p className="link project disabled">- CASSIA (under construction)</p>
+          <div className="link-wrapper">
+            <div className="list-dash">-</div>
+            <p className="link project">Cassia (under construction)</p>
+          </div>
           <div className="project-wrapper">
             <p className="text">*</p>
             <p className="text">CSS, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
           </div>
+          <br />
+          <br />
+          <div className="title-container">
+            <h1 className="title" style={{ fontSize: "1.5rem" }}>
+              About me:
+            </h1>
+            <h1 className="title-mask" style={{ fontSize: "1.5rem" }}>
+              About me:
+            </h1>
+          </div>
+          <br />
+          <img className="pfp" src={pfp} />
+          <br />
+          <br />
+          <p className="text about">
+            I'm Beni, a curious soul who loves creating - whether it's music, code, or new ways to
+            think about the world. I find inspiration in astrophysics, stoic philosophy, and the
+            simple act of learning something new. Outside of work, you'll usually catch me at the
+            gym, at the piano, or lost in thought.
+          </p>
         </div>
       </main>
     </>

@@ -1,3 +1,7 @@
+:root {
+  --pfp: 80px;
+}
+
 #root {
   display: flex;
   justify-content: center;
@@ -13,6 +17,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pfp {
+  height: var(--pfp);
+  width: var(--pfp);
 }
 
 .title-container {
@@ -76,9 +85,24 @@
   word-spacing: 10px;
 }
 
+.link-wrapper,
 .project-wrapper {
   display: flex;
   gap: 0.8rem;
+}
+
+.list-dash {
+  color: #a4f8bd;
+  font-size: 1.25rem;
+}
+
+.link.project:hover {
+  padding-left: 10px;
+  word-spacing: normal;
+}
+
+.about {
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
