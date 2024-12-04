@@ -101,6 +101,22 @@
   word-spacing: normal;
 }
 
+.cv-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #111;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: 0.3s ease-out;
+  border: 2px solid #fff;
+}
+
+.cv-btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+
 @media screen and (max-width: 768px) {
   :root {
     --pfp: 60px;

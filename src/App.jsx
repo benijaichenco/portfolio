@@ -101,12 +101,20 @@ function App() {
             I'm Beni, a curious soul who loves creating - whether it's music, code, or new ways to
             think about the world.
             <br />
-            <br />I find inspiration in astro-physics, stoic philosophy, and the simple act of
+            <br />
+            I find inspiration in astrophysics, philosophy, psychology and the simple act of
             learning something new.
             <br />
             <br />
             Outside of work, you'll usually catch me at the gym, at the piano, or lost in thought.
           </p>
+          <br />
+          <br />
+          <br />
+
+          <a href="/cv.pdf" target="_blank" className="cv-btn">
+            {`<RESUME/>`}
+          </a>
         </div>
       </main>
     </>
