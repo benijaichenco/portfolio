@@ -99,9 +99,13 @@ function App() {
           <br />
           <p className="text about">
             I'm Beni, a curious soul who loves creating - whether it's music, code, or new ways to
-            think about the world. I find inspiration in astrophysics, stoic philosophy, and the
-            simple act of learning something new. Outside of work, you'll usually catch me at the
-            gym, at the piano, or lost in thought.
+            think about the world.
+            <br />
+            <br />I find inspiration in astro-physics, stoic philosophy, and the simple act of
+            learning something new.
+            <br />
+            <br />
+            Outside of work, you'll usually catch me at the gym, at the piano, or lost in thought.
           </p>
         </div>
       </main>

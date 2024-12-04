@@ -101,11 +101,11 @@
   word-spacing: normal;
 }
 
-.about {
-  text-align: justify;
-}
-
 @media screen and (max-width: 768px) {
+  :root {
+    --pfp: 60px;
+  }
+
   #main {
     width: 320px;
   }
