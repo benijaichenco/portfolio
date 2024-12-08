@@ -16,7 +16,9 @@ function App() {
             <br />
             - Web designer.
             <br />
-            <br />I like to build things that look and work good.
+            <br />
+            I like to solve problems and turn ideas into reality.
+            <br />
             <br />
             Always learning, always creating.
           </p>
