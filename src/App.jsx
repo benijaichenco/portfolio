@@ -65,7 +65,9 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">FRONTEND: Vite, React, TypeScript, CSS, Lenis, Framer-Motion.</p>
+            <p className="text">
+              FRONTEND: Vite, React, TypeScript, HTML, CSS, Lenis, Framer-Motion.
+            </p>
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
