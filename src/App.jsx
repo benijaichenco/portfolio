@@ -56,6 +56,27 @@ function App() {
           <div className="link-wrapper">
             <div className="list-dash">-</div>
             <a
+              href="https://cassia-prod-client.vercel.app/"
+              target="_blank"
+              className="link project"
+            >
+              CASSIA
+            </a>
+          </div>
+          <div className="project-wrapper">
+            <p className="text">*</p>
+            <p className="text">FRONTEND: Vite, React, TypeScript, CSS, Lenis, Framer-Motion.</p>
+          </div>
+          <div className="project-wrapper">
+            <p className="text">*</p>
+            <p className="text">
+              BACKEND: NodeJS, Express, MongoDB, JsonWebToken, Nodemailer, Bcrypt.
+            </p>
+          </div>
+          <br />
+          <div className="link-wrapper">
+            <div className="list-dash">-</div>
+            <a
               href="https://benijaichenco.github.io/user-management-system/"
               target="_blank"
               className="link project"
@@ -63,7 +84,10 @@ function App() {
               User Management System
             </a>
           </div>
-          <p className="text">* HTML, SCSS, Javascript.</p>
+          <div className="project-wrapper">
+            <p className="text">*</p>
+            <p className="text">FRONTEND: HTML, SCSS, JavaScript.</p>
+          </div>
           <br />
           <div className="link-wrapper">
             <div className="list-dash">-</div>
@@ -75,15 +99,9 @@ function App() {
               Weather App
             </a>
           </div>
-          <p className="text">* CSS, React, TypeScript.</p>
-          <br />
-          <div className="link-wrapper">
-            <div className="list-dash">-</div>
-            <p className="link project">Cassia (under construction)</p>
-          </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">CSS, React, TypeScript, NodeJS, Express, MongoDB, JWT.</p>
+            <p className="text">FRONTEND: CSS, React, TypeScript.</p>
           </div>
           <br />
           <br />
