@@ -103,7 +103,7 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">FRONTEND: CSS, React, TypeScript.</p>
+            <p className="text">FRONTEND: CSS, React, TypeScript, Framer-Motion.</p>
           </div>
           <br />
           <br />
