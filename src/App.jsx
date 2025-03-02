@@ -12,7 +12,7 @@ function App() {
           </div>
           <p className="text">
             <br />
-            - Full-stack developer
+            - Full-Stack Developer
             <br />
             <br />
             I like to solve complex problems and turn ideas into reality.
