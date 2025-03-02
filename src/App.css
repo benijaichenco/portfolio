@@ -67,8 +67,13 @@
   color: #d8d8d8;
 }
 
+.text.stack {
+  margin-bottom: 4px;
+}
+
 .text-bold {
   font-weight: 700;
+  color: #f5f5f5;
 }
 
 .link {
@@ -84,6 +89,7 @@
 
 .link.project {
   color: #a4f8bd;
+  margin-bottom: 8px;
 }
 
 .link:hover {

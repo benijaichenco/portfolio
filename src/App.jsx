@@ -12,12 +12,12 @@ function App() {
           </div>
           <p className="text">
             <br />
-            - Fullstack developer.
+            - Full-stack developer.
             <br />
-            - Web designer.
+            - Software engineer.
             <br />
             <br />
-            I like to solve problems and turn ideas into reality.
+            I like to solve complex problems and turn ideas into reality.
             <br />
             <br />
             Always learning, always creating.
@@ -65,15 +65,15 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">
-              <span className="text-bold">FRONTEND:</span> Vite, React, TypeScript, HTML, CSS,
+            <p className="text stack">
+              <span className="text-bold">Frontend:</span> Vite, React, TypeScript, HTML, CSS,
               Lenis, Framer-Motion.
             </p>
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
             <p className="text">
-              <span className="text-bold">BACKEND:</span> NodeJS, Express, MongoDB, JsonWebToken,
+              <span className="text-bold">Backend:</span> NodeJS, Express, MongoDB, JsonWebToken,
               Nodemailer, Bcrypt.
             </p>
           </div>
@@ -90,8 +90,8 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">
-              <span className="text-bold">FRONTEND:</span> HTML, SCSS, JavaScript.
+            <p className="text stack">
+              <span className="text-bold">Frontend:</span> HTML, SCSS, JavaScript.
             </p>
           </div>
           <br />
@@ -107,8 +107,8 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">
-              <span className="text-bold">FRONTEND:</span> CSS, React, TypeScript, Framer-Motion.
+            <p className="text stack">
+              <span className="text-bold">Frontend:</span> CSS, React, TypeScript, Framer-Motion.
             </p>
           </div>
           <br />
@@ -130,11 +130,12 @@ function App() {
             think about the world.
             <br />
             <br />
-            I find inspiration in astrophysics, philosophy, psychology and the simple act of
+            I find inspiration in astrophysics, philosophy, computer-science and the simple act of
             learning something new.
             <br />
             <br />
-            Outside of work, you'll usually catch me at the gym, at the piano, or lost in thought.
+            Outside of work, you'll usually find me studying, at the gym, at the piano, or pondering
+            the things I learn, always curious to understand more.
           </p>
           <br />
           <br />
