@@ -14,8 +14,6 @@ function App() {
             <br />
             - Full-stack developer.
             <br />
-            - Software engineer.
-            <br />
             <br />
             I like to solve complex problems and turn ideas into reality.
             <br />
