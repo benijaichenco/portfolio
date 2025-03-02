@@ -66,13 +66,15 @@ function App() {
           <div className="project-wrapper">
             <p className="text">*</p>
             <p className="text">
-              FRONTEND: Vite, React, TypeScript, HTML, CSS, Lenis, Framer-Motion.
+              <span className="text-bold">FRONTEND:</span> Vite, React, TypeScript, HTML, CSS,
+              Lenis, Framer-Motion.
             </p>
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
             <p className="text">
-              BACKEND: NodeJS, Express, MongoDB, JsonWebToken, Nodemailer, Bcrypt.
+              <span className="text-bold">BACKEND:</span> NodeJS, Express, MongoDB, JsonWebToken,
+              Nodemailer, Bcrypt.
             </p>
           </div>
           <br />
@@ -88,7 +90,9 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">FRONTEND: HTML, SCSS, JavaScript.</p>
+            <p className="text">
+              <span className="text-bold">FRONTEND:</span> HTML, SCSS, JavaScript.
+            </p>
           </div>
           <br />
           <div className="link-wrapper">
@@ -103,7 +107,9 @@ function App() {
           </div>
           <div className="project-wrapper">
             <p className="text">*</p>
-            <p className="text">FRONTEND: CSS, React, TypeScript, Framer-Motion.</p>
+            <p className="text">
+              <span className="text-bold">FRONTEND:</span> CSS, React, TypeScript, Framer-Motion.
+            </p>
           </div>
           <br />
           <br />

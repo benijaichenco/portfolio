@@ -59,11 +59,16 @@
   width: 100%;
 }
 
-.text {
+.text,
+.text-bold {
   font-size: 1.25rem;
   font-weight: 200;
   width: fit-content;
   color: #d8d8d8;
+}
+
+.text-bold {
+  font-weight: 700;
 }
 
 .link {
